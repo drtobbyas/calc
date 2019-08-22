@@ -5,10 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calc - A calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    This is where the structure goes.
+    <div class="calculator">
+        <div class="display">
+            <input type="text" value="0">
+            <input type="text" value="0" placeholder="0">
+        </div>
+        <div class="input">
+            <button data-action="%">%</button>
+            <button data-action="CE">CE</button>
+            <button data-action="C">C</button>
+            <button class="operator" data-action="/">/</button>
+            <button data-action="7">7</button>
+            <button data-action="8">8</button>
+            <button data-action="9">9</button>
+            <button class="operator" data-action="*">*</button>
+            <button data-action="4">4</button>
+            <button data-action="5">5</button>
+            <button data-action="6">6</button>
+            <button class="operator" data-action="-">-</button>
+            <button data-action="1">1</button>
+            <button data-action="2">2</button>
+            <button data-action="3">3</button>
+            <button class="operator" data-action="+">+</button>
+            <button data-action="+/-">+/-</button>
+            <button data-action="0">0</button>
+            <button data-action=".">.</button>
+            <button class="operator equals" data-action="=">=</button>
+            
+        </div>
+    </div>
     <script src="js/calc.js"></script>
 </body>
 </html>
